@@ -54,7 +54,7 @@ const Footer = () => {
           <Typography>ОГРН 321420500002932 </Typography>
           <Typography>Договор оферты </Typography>
         </Box>
-        <Box>
+        <Box sx={{ marginTop: { xs: "40px", md: "0px" } }}>
           <Typography sx={{ padding: "10px" }}>
             г. Москва, ул. Петра Алексеева, д. 12{" "}
           </Typography>
