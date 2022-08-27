@@ -58,6 +58,7 @@ const Rates = () => {
           >
             <Box
               sx={{
+                minHeight: "490px",
                 minWidth: "240px",
                 textAlign: { xs: "center", md: "inherit" },
               }}
@@ -198,6 +199,7 @@ const Rates = () => {
           >
             <Box
               sx={{
+                minHeight: "490px",
                 minWidth: "240px",
                 textAlign: { xs: "center", md: "inherit" },
               }}
