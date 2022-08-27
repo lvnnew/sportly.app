@@ -45,6 +45,7 @@ const Footer = () => {
           justifyContent: "space-around",
           color: "#fff",
           marginTop: "80px",
+          flexDirection: { xs: "column", md: "row" },
         }}
       >
         <Box>
