@@ -213,7 +213,7 @@ const Rates = () => {
                   paddingBottom: "10px",
                 }}
               >
-                Организация
+                Корпорация
               </Typography>
               <Typography sx={{ paddingTop: "10px" }}>
                 Всё из "Организации"

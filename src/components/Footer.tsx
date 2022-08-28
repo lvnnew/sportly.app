@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 
 const Footer = () => {
@@ -49,10 +49,21 @@ const Footer = () => {
         }}
       >
         <Box>
-          <Typography>© ИП Манапова Анна Сергеевна </Typography>
-          <Typography>ИНН 422378228785 </Typography>
-          <Typography>ОГРН 321420500002932 </Typography>
-          <Typography>Договор оферты </Typography>
+          <Typography sx={{ padding: "10px" }}>© ИП Манапова Анна Сергеевна </Typography>
+          <Typography sx={{ padding: "10px" }}>ИНН 422378228785 </Typography>
+          <Typography sx={{ padding: "10px" }}>ОГРН 321420500002932 </Typography>
+          <Typography>
+            <Button
+              href="https://docs.google.com/document/d/1XtePgWgtPZGjcVTQvgjTX15rbU2viR5r18grv_nXjbs/edit"
+              target="_blank"
+              variant="text"
+              sx={{
+                color: '#fff'
+              }}
+            >
+              Договор оферты
+            </Button>
+          </Typography>
         </Box>
         <Box sx={{ marginTop: { xs: "40px", md: "0px" } }}>
           <Typography sx={{ padding: "10px" }}>
